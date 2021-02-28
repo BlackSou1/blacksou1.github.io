@@ -23,14 +23,14 @@
 		<div class="page-width">
 			<div class="header__wrapper">
 				<h2 class="header__logo">About Me</h2>
-				<ul class="header__nav">
-					<li class="header__nav-item"><a class="header__nav-link" href="#home">Home</a></li>
-					<li class="header__nav-item"><a class="header__nav-link" href="#services">Services</a></li>
-					<li class="header__nav-item"><a class="header__nav-link" href="#portfolio">Portfolio</a></li>
-					<li class="header__nav-item"><a class="header__nav-link" href="#prices">Prices</a></li>
-					<li class="header__nav-item"><a class="header__nav-link" href="#music">Music</a></li>
-					<li class="header__nav-item"><a class="header__nav-link" href="#contact">Contact</a></li>
-				</ul>
+				<nav class="header__nav">
+					<a class="header__nav-link" href="#home">Home</a>
+					<a class="header__nav-link" href="#services">Services</a>
+					<a class="header__nav-link" href="#portfolio">Portfolio</a>
+					<a class="header__nav-link" href="#prices">Prices</a>
+					<a class="header__nav-link" href="#music">Music</a>
+					<a class="header__nav-link" href="#contact">Contact</a>
+				</nav>
 				<div class="header__right">
 					<div class="header__language">
 						<a class="header__language-button submenu__button" href="javascript:void(0)">
@@ -42,8 +42,8 @@
 							<a class="header__language-submenu-button" href="ru">Русский</a>
 						</div>
 					</div>
-					<a class="header__social-item" href="https://github.com/BlackSou1" target="_blank"><i class="fab fa-github"></i></a>
-					<button class="header__hamburger hamburger__button"><i class="fas fa-bars"></i></button>
+					<a class="header__social-item" href="https://github.com/BlackSou1" target="_blank" aria-label="Github account"><i class="fab fa-github"></i></a>
+					<button class="header__hamburger hamburger__button" aria-label="Open navigation"><i class="fas fa-bars"></i></button>
 				</div>
 			</div>
 		</div>
@@ -54,7 +54,7 @@
 				<div class="home__wrapper fade-up">
 					<h1 class="home__title section__title">Black Soul</h1>
 					<p class="home__description">Web Developer</p>
-					<a class="home__arrow" href="#services"><i class="fas fa-arrow-down"></i></a>
+					<a class="home__arrow" href="#services" aria-label="Scroll down"><i class="fas fa-arrow-down"></i></a>
 				</div>
 			</div>
 		</section>
@@ -261,14 +261,14 @@
 	</footer>
 	<div class="hamburger">
 		<div class="hamburger__wrapper">
-			<ul class="hamburger__nav">
-				<li class="hamburger__nav-item"><a class="hamburger__nav-link" href="#home">Home</a></li>
-				<li class="hamburger__nav-item"><a class="hamburger__nav-link" href="#services">Services</a></li>
-				<li class="hamburger__nav-item"><a class="hamburger__nav-link" href="#portfolio">Portfolio</a></li>
-				<li class="hamburger__nav-item"><a class="hamburger__nav-link" href="#prices">Prices</a></li>
-				<li class="hamburger__nav-item"><a class="hamburger__nav-link" href="#music">Music</a></li>
-				<li class="hamburger__nav-item"><a class="hamburger__nav-link" href="#contact">Contact</a></li>
-			</ul>
+			<nav class="hamburger__nav">
+				<a class="hamburger__nav-link" href="#home">Home</a>
+				<a class="hamburger__nav-link" href="#services">Services</a>
+				<a class="hamburger__nav-link" href="#portfolio">Portfolio</a>
+				<a class="hamburger__nav-link" href="#prices">Prices</a>
+				<a class="hamburger__nav-link" href="#music">Music</a>
+				<a class="hamburger__nav-link" href="#contact">Contact</a>
+			</nav>
 			<div class="hamburger__language hamburger__nav-item accordion">
 				<a class="hamburger__language-button accordion__button" href="javascript:void(0)">
 					<p class="hamburger__language-button-text">English</p>
@@ -285,7 +285,7 @@
 		<div class="modal__progress modal">
 			<div class="modal__wrapper">
 				<div class="modal__progress-content modal__content">
-					<button class="modal__close">&times;</button>
+					<button class="modal__close" aria-label="Close modal">&times;</button>
 					<h3 class="modal__progress-title">In Progress</h3>
 					<p class="modal__progress-text">This portfolio item is currently <br>in development.</p>
 				</div>

@@ -23,14 +23,14 @@
 		<div class="page-width">
 			<div class="header__wrapper">
 				<h2 class="header__logo">Обо мне</h2>
-				<ul class="header__nav">
-					<li class="header__nav-item"><a class="header__nav-link" href="#home">Главная</a></li>
-					<li class="header__nav-item"><a class="header__nav-link" href="#services">Услуги</a></li>
-					<li class="header__nav-item"><a class="header__nav-link" href="#portfolio">Портфолио</a></li>
-					<li class="header__nav-item"><a class="header__nav-link" href="#prices">Цены</a></li>
-					<li class="header__nav-item"><a class="header__nav-link" href="#music">Музыка</a></li>
-					<li class="header__nav-item"><a class="header__nav-link" href="#contact">Связаться</a></li>
-				</ul>
+				<nav class="header__nav">
+					<a class="header__nav-link" href="#home">Главная</a>
+					<a class="header__nav-link" href="#services">Услуги</a>
+					<a class="header__nav-link" href="#portfolio">Портфолио</a>
+					<a class="header__nav-link" href="#prices">Цены</a>
+					<a class="header__nav-link" href="#music">Музыка</a>
+					<a class="header__nav-link" href="#contact">Связаться</a>
+				</nav>
 				<div class="header__right">
 					<div class="header__language">
 						<a class="header__language-button submenu__button" href="javascript:void(0)">
@@ -42,8 +42,8 @@
 							<a class="header__language-submenu-button" href="ru">Русский</a>
 						</div>
 					</div>
-					<a class="header__social-item" href="https://github.com/BlackSou1" target="_blank"><i class="fab fa-github"></i></a>
-					<button class="header__hamburger hamburger__button"><i class="fas fa-bars"></i></button>
+					<a class="header__social-item" href="https://github.com/BlackSou1" target="_blank" aria-label="Github-аккаунт"><i class="fab fa-github"></i></a>
+					<button class="header__hamburger hamburger__button" aria-label="Открыть навигацию"><i class="fas fa-bars"></i></button>
 				</div>
 			</div>
 		</div>
@@ -54,7 +54,7 @@
 				<div class="home__wrapper fade-up">
 					<h1 class="home__title section__title">Black Soul</h1>
 					<p class="home__description">Веб-разработчик</p>
-					<a class="home__arrow" href="#services"><i class="fas fa-arrow-down"></i></a>
+					<a class="home__arrow" href="#services" aria-label="Прокрутить вниз"><i class="fas fa-arrow-down"></i></a>
 				</div>
 			</div>
 		</section>
@@ -261,14 +261,14 @@
 	</footer>
 	<div class="hamburger">
 		<div class="hamburger__wrapper">
-			<ul class="hamburger__nav">
-				<li class="hamburger__nav-item"><a class="hamburger__nav-link" href="#home">Главная</a></li>
-				<li class="hamburger__nav-item"><a class="hamburger__nav-link" href="#services">Услуги</a></li>
-				<li class="hamburger__nav-item"><a class="hamburger__nav-link" href="#portfolio">Портфолио</a></li>
-				<li class="hamburger__nav-item"><a class="hamburger__nav-link" href="#prices">Цены</a></li>
-				<li class="hamburger__nav-item"><a class="hamburger__nav-link" href="#music">Музыка</a></li>
-				<li class="hamburger__nav-item"><a class="hamburger__nav-link" href="#contact">Связаться</a></li>
-			</ul>
+			<nav class="hamburger__nav">
+				<a class="hamburger__nav-link" href="#home">Главная</a>
+				<a class="hamburger__nav-link" href="#services">Услуги</a>
+				<a class="hamburger__nav-link" href="#portfolio">Портфолио</a>
+				<a class="hamburger__nav-link" href="#prices">Цены</a>
+				<a class="hamburger__nav-link" href="#music">Музыка</a>
+				<a class="hamburger__nav-link" href="#contact">Связаться</a>
+			</nav>
 			<div class="hamburger__language hamburger__nav-item accordion">
 				<a class="hamburger__language-button accordion__button" href="javascript:void(0)">
 					<p class="hamburger__language-button-text">Русский</p>
@@ -285,7 +285,7 @@
 		<div class="modal__progress modal">
 			<div class="modal__wrapper">
 				<div class="modal__progress-content modal__content">
-					<button class="modal__close">&times;</button>
+					<button class="modal__close" aria-label="Закрыть модальное окно">&times;</button>
 					<h3 class="modal__progress-title">В разработке</h3>
 					<p class="modal__progress-text">Этот элемент портфолио находится <br>в разработке.</p>
 				</div>
