@@ -13,7 +13,7 @@
 	<link rel="shortcut icon" href="img/favicons/favicon.ico">
 	<meta name="msapplication-TileColor" content="#2b5797">
 	<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
-	<meta name="theme-color" content="#000000">
+	<meta name="theme-color" content="#111">
 	<link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;700&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/4c1e25a77a.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/style.min.css">
@@ -38,7 +38,7 @@
 							<i class="header__language-icon fas fa-caret-down"></i>
 						</button>
 						<div class="header__language-submenu-wrapper submenu__wrapper">
-							<a class="header__language-submenu-button" href="index">English</a>
+							<a class="header__language-submenu-button" href="/">English</a>
 							<a class="header__language-submenu-button" href="ru">Русский</a>
 						</div>
 					</div>
@@ -83,97 +83,105 @@
 		<section class="portfolio" id="portfolio">
 			<div class="portfolio__wrapper">
 				<h2 class="portfolio__title section__title fade-right">Portfolio</h2>
-				<div class="portfolio__content section">
-					<div class="portfolio__slider slider">
-						<div class="portfolio__slider-wrapper slider__wrapper">
-							<div class="portfolio__slider-item slider__item">
-								<div class="page-width">
-									<div class="portfolio__cards">
-										<div class="portfolio__card fade-right">
-											<a class="portfolio__card-link" href="SocialApp" target="_blank">
-												<img class="portfolio__card-img" src="img/SocialApp.jpg" alt="Social App">
-												<h3 class="portfolio__card-title">Social App</h3>
-											</a>
-										</div>
-										<div class="portfolio__card fade-left">
-											<a class="portfolio__card-link" href="Maximal" target="_blank">
-												<img class="portfolio__card-img" src="img/Maximal.jpg" alt="Maximal">
-												<h3 class="portfolio__card-title">Maximal</h3>
-											</a>
-										</div>
-										<div class="portfolio__card fade-right">
-											<a class="portfolio__card-link" href="Advogrand" target="_blank">
-												<img class="portfolio__card-img" src="img/Advogrand.jpg" alt="Advogrand">
-												<h3 class="portfolio__card-title">Advogrand</h3>
-											</a>
-										</div>
-										<div class="portfolio__card fade-left">
-											<a class="portfolio__card-link" href="Skokov" target="_blank">
-												<img class="portfolio__card-img" src="img/Skokov.jpg" alt="Skokov">
-												<h3 class="portfolio__card-title">Skokov</h3>
-											</a>
+				<div class="portfolio__content section tab">
+					<div class="page-width">
+						<div class="portfolio__tab-buttons fade-down">
+							<button class="portfolio__tab-button tab__button tab__button--active">React</button>
+							<button class="portfolio__tab-button tab__button">No framework</button>
+						</div>
+					</div>
+					<div class="portfolio__tab tab__item tab__item--active">
+						<div class="page-width">
+							<div class="portfolio__cards">
+								<div class="portfolio__card fade-right">
+									<a class="portfolio__card-link" href="SocialApp" target="_blank">
+										<img class="portfolio__card-img" src="img/SocialApp.jpg" alt="Social App">
+										<h3 class="portfolio__card-title">Social App</h3>
+									</a>
+								</div>
+								<div class="portfolio__card fade-left">
+									<a class="portfolio__card-link" href="Maximal" target="_blank">
+										<img class="portfolio__card-img" src="img/Maximal.jpg" alt="Maximal">
+										<h3 class="portfolio__card-title">Maximal</h3>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio__tab tab__item">
+						<div class="portfolio__slider slider">
+							<div class="portfolio__slider-wrapper slider__wrapper">
+								<div class="portfolio__slider-item slider__item">
+									<div class="page-width">
+										<div class="portfolio__cards">
+											<div class="portfolio__card fade-right">
+												<a class="portfolio__card-link" href="Advogrand" target="_blank">
+													<img class="portfolio__card-img" src="img/Advogrand.jpg" alt="Advogrand">
+													<h3 class="portfolio__card-title">Advogrand</h3>
+												</a>
+											</div>
+											<div class="portfolio__card fade-left">
+												<a class="portfolio__card-link" href="Skokov" target="_blank">
+													<img class="portfolio__card-img" src="img/Skokov.jpg" alt="Skokov">
+													<h3 class="portfolio__card-title">Skokov</h3>
+												</a>
+											</div>
+											<div class="portfolio__card fade-right">
+												<a class="portfolio__card-link" href="Atlantida" target="_blank">
+													<img class="portfolio__card-img" src="img/Atlantida.jpg" alt="Atlantida">
+													<h3 class="portfolio__card-title">Atlantida</h3>
+												</a>
+											</div>
+											<div class="portfolio__card fade-left">
+												<a class="portfolio__card-link" href="Counsel" target="_blank">
+													<img class="portfolio__card-img" src="img/Counsel.jpg" alt="Counsel">
+													<h3 class="portfolio__card-title">Counsel</h3>
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-							<div class="portfolio__slider-item slider__item">
-								<div class="page-width">
-									<div class="portfolio__cards">
-										<div class="portfolio__card fade-right">
-											<a class="portfolio__card-link" href="Atlantida" target="_blank">
-												<img class="portfolio__card-img" src="img/Atlantida.jpg" alt="Atlantida">
-												<h3 class="portfolio__card-title">Atlantida</h3>
-											</a>
-										</div>
-										<div class="portfolio__card fade-left">
-											<a class="portfolio__card-link" href="Counsel" target="_blank">
-												<img class="portfolio__card-img" src="img/Counsel.jpg" alt="Counsel">
-												<h3 class="portfolio__card-title">Counsel</h3>
-											</a>
-										</div>
-										<div class="portfolio__card fade-right">
-											<a class="portfolio__card-link" href="Lemon" target="_blank">
-												<img class="portfolio__card-img" src="img/Lemon.jpg" alt="Lemon">
-												<h3 class="portfolio__card-title">Lemon</h3>
-											</a>
-										</div>
-										<div class="portfolio__card fade-left">
-											<a class="portfolio__card-link" href="Delivery" target="_blank">
-												<img class="portfolio__card-img" src="img/Delivery.jpg" alt="Delivery">
-												<h3 class="portfolio__card-title">Delivery</h3>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio__slider-item slider__item">
-								<div class="page-width">
-									<div class="portfolio__cards">
-										<div class="portfolio__card fade-right">
-											<a class="portfolio__card-link" href="CarStore" target="_blank">
-												<img class="portfolio__card-img" src="img/CarStore.jpg" alt="CarStore">
-												<h3 class="portfolio__card-title">CarStore</h3>
-											</a>
-										</div>
-										<div class="portfolio__card fade-left">
-											<a class="portfolio__card-link" href="Pizza" target="_blank">
-												<img class="portfolio__card-img" src="img/Pizza.jpg" alt="Pizza">
-												<h3 class="portfolio__card-title">Pizza</h3>
-											</a>
+								<div class="portfolio__slider-item slider__item">
+									<div class="page-width">
+										<div class="portfolio__cards">
+											<div class="portfolio__card fade-right">
+												<a class="portfolio__card-link" href="Lemon" target="_blank">
+													<img class="portfolio__card-img" src="img/Lemon.jpg" alt="Lemon">
+													<h3 class="portfolio__card-title">Lemon</h3>
+												</a>
+											</div>
+											<div class="portfolio__card fade-left">
+												<a class="portfolio__card-link" href="Delivery" target="_blank">
+													<img class="portfolio__card-img" src="img/Delivery.jpg" alt="Delivery">
+													<h3 class="portfolio__card-title">Delivery</h3>
+												</a>
+											</div>
+											<div class="portfolio__card fade-right">
+												<a class="portfolio__card-link" href="CarStore" target="_blank">
+													<img class="portfolio__card-img" src="img/CarStore.jpg" alt="CarStore">
+													<h3 class="portfolio__card-title">CarStore</h3>
+												</a>
+											</div>
+											<div class="portfolio__card fade-left">
+												<a class="portfolio__card-link" href="Pizza" target="_blank">
+													<img class="portfolio__card-img" src="img/Pizza.jpg" alt="Pizza">
+													<h3 class="portfolio__card-title">Pizza</h3>
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="page-width">
-						<div class="portfolio__slider-buttons fade-up">
-							<button class="portfolio__slider-prev slider__prev" tabindex="-1">
-								<i class="fas fa-chevron-left"></i>
-							</button>
-							<button class="portfolio__slider-next slider__next" tabindex="-1">
-								<i class="fas fa-chevron-right"></i>
-							</button>
+						<div class="page-width">
+							<div class="portfolio__slider-buttons fade-up">
+								<button class="portfolio__slider-prev slider__prev" tabindex="-1">
+									<i class="fas fa-chevron-left"></i>
+								</button>
+								<button class="portfolio__slider-next slider__next" tabindex="-1">
+									<i class="fas fa-chevron-right"></i>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -258,7 +266,7 @@
 					<i class="hamburger__language-button-icon fas fa-angle-down"></i>
 				</button>
 				<div class="hamburger__language-accordion accordion__wrapper">
-					<a class="hamburger__language-accordion-link" href="index">English</a>
+					<a class="hamburger__language-accordion-link" href="/">English</a>
 					<a class="hamburger__language-accordion-link" href="ru">Русский</a>
 				</div>
 			</div>
